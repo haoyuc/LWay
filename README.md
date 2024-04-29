@@ -1,5 +1,8 @@
 # Low-Res Leads the Way: Improving Generalization for Super-Resolution by Self-Supervised Learning
 
+[[arXiv]](https://arxiv.org/abs/2403.02601)    [[homepage]](https://haoyuchen.com/LWay)
+
+
 > Due to company policy constraints, we are unable to release our complete codebase and models. However, the good news is that this work is highly reproducible. In this repository, I will provide some of the key elements and tips to help facilitate the replication of our results.
 
 ![](LWay.jpg)
