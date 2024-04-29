@@ -15,7 +15,9 @@ Since we directly used the [DegAE](https://github.com/lyh-18/DegAE_DegradationAu
 
 ## Step 2: Self-supervised Learning
 
-For the high-frequency loss, we use the `pywt.dwt2` function to compute the high-frequency components. We then calculate the L2 norm of the results across different directions, followed by normalization to obtain the high-frequency map (from 0 to 1). Finally, we multiply this high-frequency map with the original loss.
+- The backbone is from other pre-trained SR models.
+- The loss function is clearly defined.
+  - For the high-frequency loss, we use the `pywt.dwt2` function to compute the high-frequency components. We then calculate the L2 norm of the results across different directions, followed by normalization to obtain the high-frequency map (from 0 to 1). Finally, we multiply this high-frequency map with the original loss.
 
 
 ## Some Tips
